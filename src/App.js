@@ -4,6 +4,8 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Package1 from './Package1';
 import Package2 from './Package2';
+import MainContainer from './containers/MainContainer';
+import AdminContainer from './containers/AdminContainer';
 
 
 
@@ -40,8 +42,8 @@ function App() {
             </nav>
 
             <Route path="/" exact component={Package1} />
-            <Route path="/about/" component={Package2} />
-            <Route path="/admin/" component={Package1} />
+            <Route path="/about/" component={MainContainer} />
+            <Route path="/admin/" component={AdminContainer} />
           </div>
         </Router>
       </header>

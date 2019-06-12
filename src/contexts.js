@@ -1,8 +1,13 @@
 export default {
-    ctx1: {
+    meat: [{
         prop1: "val1"
-    },
-    ctx2: {
+    }],
+    vegs: [{
         prop2: "val2"
-    }
+    }],
+    frutis: [
+        {
+            prop3: "val3"
+        }
+    ]
 }
